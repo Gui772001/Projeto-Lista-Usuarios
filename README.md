@@ -1,28 +1,38 @@
-# UsersFilterProject
+📋 Projeto Lista de Usuários - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Este projeto foi desenvolvido com Angular como parte de um exercício acadêmico. A aplicação exibe uma lista de usuários e permite a filtragem por nome, data de cadastro e status. Além disso, ao clicar em um usuário, um painel lateral exibe detalhes sobre ele, mantendo tudo na mesma página, sem navegação ou roteamento.
 
-## Development server
+🚀 Funcionalidades
+Listagem de Usuários:
+A aplicação exibe uma lista completa com nome, e-mail, telefone, endereço, status e data de cadastro dos usuários.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Filtros:
+O usuário pode filtrar a lista de usuários por:
 
-## Code scaffolding
+Nome (Pesquisa por nome)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Data de Cadastro (Intervalo de datas)
 
-## Build
+Status (Ativo/Inativo)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Detalhes do Usuário:
+Ao clicar em um usuário, mais informações sobre ele são exibidas em um painel lateral na mesma tela, sem a necessidade de navegar para outra página.
 
-## Running unit tests
+🛠️ Tecnologias Utilizadas
+Angular (Componentes, Diretivas, Pipes, Forms, Angular Material)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+TypeScript (Lógica e Tipagem)
 
-## Running end-to-end tests
+CSS (Estilização)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Angular Material (Para componentes de UI como formulários, botões e listas)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Projeto-Lista-Usuarios
+📷 Imagens do Projeto
+<p align="center"> 
+  <img src="./img/user-detail-panel.png" alt="Lista de Usuários" width="700"/> </p> 
+  <p align="center">
+    <img src="./img/user-list.png" alt="Detalhes do Usuário no Painel Lateral" width="700"/>
+  </p>
+  <p align="center">
+    <img src="./img/filter.png" alt="Detalhes do Usuário no Painel Lateral" width="700"/>
+  </p>
